@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>subrahmanaym budi Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: hwb(180 95% 5%);
+    color: #333;
+}
+
+header {
+    background: #1f2937;
+    color: hsl(0, 7%, 92%);
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #d4d2d2;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    padding: 80px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero span {
+    color: #2563eb;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.hero img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+section {
+    padding: 100px 10%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.about,
+.contact {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill {
+    background: #fbc0c0;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: rgb(254, 194, 194);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(231, 224, 224, 0.1);
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    margin-bottom: 30px;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>Subrahmanaym Budi</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Hi, I'm <span>Subrahmanaym Budi</span></h1>
+        <p>
+            Full Stack Developer passionate about building modern web
+            applications and solving real-world problems.
+        </p>
+        <a href="#projects" class="btn">View Projects</a>
+    </div>
+
+    <img src="portfolio.jpeg" alt="subrahmanyam budi"width="250">
+</section>
+
+<section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+
+    <p>
+         I am Subrahmanaym Budi, a B.Tech 3rd-year student specializing in Artificial Intelligence and Data Science at KIET Group of Institutions. I am passionate about web development, machine learning, and solving real-world problems through technology.
+    </p>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">python</div>
+        <div class="skill">MongoDB</div>
+        <div class="skill">Git</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>notepad</h3>
+            <p>
+                writing your notes to the notepad and save them for future reference with a simple and user friendly interface
+            </p>
+            <a href="https://github.com/subrahmanyam-budi/notepadgemini.git">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>notepad </h3>
+            <p>
+                this is a siole project of notepad which is made using html,css and javascipt
+            </p>
+            <a href="https://github.com/subrahmanyam-budi/first.git">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>grocery mart </h3>
+            <p>
+                this is a simple project of grocery mart which is made using html,css and javascript
+            </p>
+            <a href="https://github.com/subrahmanyam-budi/grocery-mart.git">View Project</a>
+        </div>
+
+        
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <p>Email: subrahmanaymbudi@example.com</p>
+    <p>LinkedIn: linkedin.com/in/subrahmanaymbudi</p>
+    <p>GitHub: github.com/subrahmanaymbudi</p>
+</section>
+
+<footer>
+    <p>© 2026 Subrahmanaym Budi. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
